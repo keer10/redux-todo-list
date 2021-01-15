@@ -1,0 +1,16 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "text": "create CRA"
+    },
+    {
+      "id": 2,
+      "text": "Next js"
+    },
+    {
+      "id": 3,
+      "text": "redux"
+    }
+  ]
+}

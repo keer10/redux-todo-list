@@ -1,0 +1,82 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.todo-count {
+  border: 2px solid #4c4d5031;
+  align-items: center;
+  font-size: 18px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.todo-input {
+  padding: 10px;
+  margin: 10px;
+  width: 90%;
+  font-size: 16px;
+}
+
+.todo-input-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo-list {
+  margin: 10px;
+  padding: 10px;
+}
+
+.todo-list-item {
+  padding: 10px 5px;
+  font-size: 16px;
+  border: 2px solid #4c4d5031;
+  margin-top: 10px;
+}
+
+.todo-list-item:hover {
+  background-color: rgb(76, 76, 146);
+  color: rgb(235, 235, 235);
+  cursor: pointer;
+}
+
+.striked {
+  text-decoration: line-through;
+}
+
+.save-btn {
+  margin: 10px;
+  align-items: center;
+}
